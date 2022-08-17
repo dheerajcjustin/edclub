@@ -1,0 +1,96 @@
+.card1 {
+    background-color: #f4f2f0;
+
+}
+
+.card1_heading {
+    color: #2b3648;
+
+}
+
+.card1_text {
+    color: #46627d;
+
+}
+
+.card1_button {
+    background-color: #2b3648;
+    color: #f4f2f0;
+}
+
+.product {
+    background-color: #FAF9F7;
+}
+
+.p-heading {
+    color: #606887;
+}
+
+.text-gold {
+    color: goldenrod;
+    font-size: x-large;
+}
+
+.product_typing_dec {
+    line-height: 200%;
+    letter-spacing: 2px;
+}
+
+.text-blue {
+    font-size: large;
+    color: #606887;
+}
+
+.google {
+    background-color: white;
+}
+
+.prodcut_card4 {
+    background-color: #FAF9F7;
+}
+
+.blue_card-container {
+    background-color: #242E3F;
+    color: #ffff;
+}
+
+.blue_card {
+    background-color: #242E3F;
+    color: #ffff;
+}
+
+.pic_contaier {
+    position: relative;
+}
+
+.individual_heading {
+    color: #2A3749;
+}
+
+footer {
+    background-color: #2A3749;
+}
+
+.white-text {
+    color: whitesmoke;
+    font-size: small;
+}
+
+.footer_heading-gold {
+    font-size: small;
+    color: goldenrod;
+}
+
+.logo_edclub {
+    max-width: 200px;
+}
+
+.edclub_pic {
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
