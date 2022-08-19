@@ -1,0 +1,21 @@
+body {
+    background-image: url(24-240228_simple-background-map-of-ink-painting-.png);
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.baner {
+    background-color: white;
+
+}
+
+signup_button {
+    text-align: center;
+}
+
+@media (max-width: 40rem) {
+    .main {
+        width: 100%;
+    }
+}
