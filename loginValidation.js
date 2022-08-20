@@ -14,8 +14,6 @@ form.addEventListener('submit', (e) => {
         e.preventDefault();
         errorElament.innerText = message.join(', ')
 
-
-
     }
 
 })
