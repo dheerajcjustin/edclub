@@ -12,58 +12,78 @@
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="signupStyle.css">
+    <script defer src="signupValidation.js"></script>
 </head>
 
 <body>
     <div class="main">
+        <div id="error"></div>
         <div class="position-absolute  start-50 translate-middle-x my-5 ">
             <div class="card bg-light mb-3 " style="max-width: 25rem;min-width: 25rem;">
                 <div class="card-header">
                     <h3>signup</h3>
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">Light card title</h5>
+                    <h5 class="card-title"></h5>
                     <div class="signup ">
-                        <form action="">
-                            <div class=" align-items-center m-2 p-2">
+                        <form action="" id="form">
+                            <!--                             
+                                <div class=" align-items-center m-2 p-2">
+                                
+                                    <label for="inputFirstN" class="">first name</label>
+                                    <br>
 
-                                <label for="inputFirstN" class="">first name</label>
+
+                                    <input type="text" id="inputFirstN" name="inputFirstN" class="bordercheck">
+                                    <div class="error"></div>
+
+                                </div>
+                                <div class=" g-3 align-items-center m-2 p-2">
+
+                                    <label for="inputLastN" class="">last name</label>
+                                    <br>
+
+
+                                    <input type="text" id="inputLastN" name="inputLastN" class="bordercheck">
+                                    <div class="error"></div> 
+
+                                </div> -->
+
+                            <div class="input-control  m-2 p-2">
+
+                                <label for="fname" class="l">Name</label>
+                                <br>
+                                <input type="text" id="fname" name="fname">
+                                <div class="error"></div>
+                            </div>
+                            <div class="input-control  m-2 p-2">
+
+                                <label for="Email" class="l">Email</label>
+                                <br>
+                                <input type="email" id="Email">
+                                <div class="error"></div>
+                            </div>
+                            <div class=" input-control align-items-center m-2 p-2">
+                                <label for="password" class="">Password</label>
+                                <br>
+                                <input type="password" id="password">
+                                <div class="error"></div>
+
+                            </div>
+                            <div class="input-control align-items-center m-2 p-2">
+
+                                <label for="password2" class="l">Enter again Password</label>
                                 <br>
 
-
-                                <input type="text" id="inputFirstN" class="">
-
-                            </div>
-                            <div class=" g-3 align-items-center m-2 p-2">
-
-                                <label for="inputLastN" class="">last name</label>
-                                <br>
-
-
-                                <input type="text" id="inputLastN" class="">
+                                <input type="password" id="password2">
+                                <div class="error"></div>
 
                             </div>
-                            <div class=" align-items-center m-2 p-2">
-
-                                <label for="inputEmail" class="l">Email</label>
-                                <br>
-
-
-                                <input type="text" id="inputEmail" class="">
+                            <div class="signButton  m-2  p-2">
+                                <button type="submit">Sign Up</button>
 
                             </div>
-                            <div class="align-items-center m-2 p-2">
 
-                                <label for="inputPassword" class="l">Password</label>
-                                <br>
-
-                                <input type="password" id="inputPassword" class="">
-
-                            </div>
-                            <div class="signButton g-3 align-items-center m-2  p-2">
-                                <input type="button" name="sign up" id="" value="signup">
-
-                            </div>
                         </form>
                     </div>
                 </div>

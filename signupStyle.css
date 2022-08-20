@@ -1,7 +1,9 @@
 body {
-    background-image: url(24-240228_simple-background-map-of-ink-painting-.png);
-    background-size: cover;
+    background-image: url(pexels-simon-berger-1323550.jpg);
+    background-size: auto;
     background-position: center center;
+    background-repeat: no-repeat;
+
 
 }
 
@@ -10,8 +12,32 @@ body {
 
 }
 
+
 signup_button {
     text-align: center;
+}
+
+.input-control input {
+    border: 3px solid whitesmoke;
+    border-radius: 4px;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: green;
+}
+
+.input-control.error input {
+    border-color: brown;
+}
+
+.input-control .error {
+    color: #ff3860;
+
+
 }
 
 @media (max-width: 40rem) {
